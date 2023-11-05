@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #228B22;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .jumbotron {
+    background-image: url('plants.jpg');
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    margin: 20px 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  .user-registration {
+    background-color: #F5F5DC;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .user-registration h2, .user-registration form  {
+    text-align: center;
+  }
+  
+  .catalogue {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .catalogue article {
+    background-color: #F5F5DC;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #228B22;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+  
+    header, .jumbotron, .user-registration, .catalogue, footer {
+      padding: 10px;
+    }
+  }
